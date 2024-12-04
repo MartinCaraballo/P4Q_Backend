@@ -35,11 +35,10 @@ After that, open `http://localhost:8080` in your browser.
 
 Run this command in the application directory to run the test suite
 
-composer install
-
-
 ```bash
 composer test
 ```
 
 That's it! Now go build something cool.
+
+composer install
