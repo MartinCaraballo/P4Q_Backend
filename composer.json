@@ -22,12 +22,15 @@
         }
     ],
     "require": {
-        "php": "^7.4 || ^8.0",
+        "php": "^8.0",
         "ext-json": "*",
+        "ext-pdo": "*",
+        "doctrine/orm": "^3.3",
         "monolog/monolog": "^2.8",
         "php-di/php-di": "^6.4",
         "slim/psr7": "^1.5",
-        "slim/slim": "^4.10"
+        "slim/slim": "^4.10",
+        "symfony/cache": "^7.2"
     },
     "require-dev": {
         "jangregor/phpstan-prophecy": "^1.0.0",
