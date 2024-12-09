@@ -22,9 +22,8 @@ return function (App $app) {
     });
 
     $app->group('/users', function (Group $group) {
-        $group->get('', ListUsersAction::class);
+        $group->get('/tickets-a-confirmar', GetUserTicketsAction::class);
+
         $group->get('/{id}', ViewUserAction::class);
     });
-
-    $app->get('/usuario/tickets-a-confirmar', GetUserTicketsAction::class);
 };

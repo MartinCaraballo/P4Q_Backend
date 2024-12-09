@@ -11,7 +11,6 @@ class GetUserTicketsAction
 {
     public function __invoke(Request $request, Response $response): Response
     {
-        // Lógica para obtener los tickets del usuario.
         $tickets = [
             [
                 'id_ticket' => 1,
