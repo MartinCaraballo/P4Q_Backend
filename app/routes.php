@@ -26,5 +26,5 @@ return function (App $app) {
         $group->get('/{id}', ViewUserAction::class);
     });
 
-    $app->get('/tickets', GetUserTicketsAction::class);
+    $app->get('/usuario/tickets-a-confirmar', GetUserTicketsAction::class);
 };
